@@ -581,6 +581,7 @@ __metadata:
     "@eslint/js": "npm:^9.24.0"
     eslint-plugin-react: "npm:^7.37.5"
     globals: "npm:^16.0.0"
+    husky: "npm:^9.1.7"
     pinst: "npm:^3.0.0"
     prettier: "npm:^3.5.3"
     typescript-eslint: "npm:^8.29.1"
@@ -837,6 +838,15 @@ __metadata:
   dependencies:
     function-bind: "npm:^1.1.2"
   checksum: 10c0/3769d434703b8ac66b209a4cca0737519925bbdb61dd887f93a16372b14694c63ff4e797686d87c90f08168e81082248b9b028bad60d4da9e0d1148766f56eb9
+  languageName: node
+  linkType: hard
+
+"husky@npm:^9.1.7":
+  version: 9.1.7
+  resolution: "husky@npm:9.1.7"
+  bin:
+    husky: bin.js
+  checksum: 10c0/35bb110a71086c48906aa7cd3ed4913fb913823715359d65e32e0b964cb1e255593b0ae8014a5005c66a68e6fa66c38dcfa8056dbbdfb8b0187c0ffe7ee3a58f
   languageName: node
   linkType: hard
 
