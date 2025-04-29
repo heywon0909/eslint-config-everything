@@ -579,6 +579,7 @@ __metadata:
   resolution: "eslint-config-everything@workspace:."
   dependencies:
     "@eslint/js": "npm:^9.24.0"
+    eslint-config-prettier: "npm:^10.1.2"
     eslint-plugin-react: "npm:^7.37.5"
     globals: "npm:^16.0.0"
     husky: "npm:^9.1.7"
@@ -587,6 +588,17 @@ __metadata:
     typescript-eslint: "npm:^8.29.1"
   languageName: unknown
   linkType: soft
+
+"eslint-config-prettier@npm:^10.1.2":
+  version: 10.1.2
+  resolution: "eslint-config-prettier@npm:10.1.2"
+  peerDependencies:
+    eslint: ">=7.0.0"
+  bin:
+    eslint-config-prettier: bin/cli.js
+  checksum: 10c0/c22c8e29193cc8fd70becf1c2dd072513f2b3004a175c2a49404c79d1745ba4dc0edc2afd00d16b0e26d24f95813a0469e7445a25104aec218f6d84cdb1697e9
+  languageName: node
+  linkType: hard
 
 "eslint-plugin-react@npm:^7.37.5":
   version: 7.37.5
