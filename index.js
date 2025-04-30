@@ -1,4 +1,8 @@
 import eslintConfigPrettier from 'eslint-config-prettier/flat';
+import eslint from './rules/eslint';
+import jsxA11y from './rules/jsxA11y';
+import typescript from './rules/typescript';
+
 export default [
     eslintConfigPrettier,
     {
@@ -7,5 +11,8 @@ export default [
 				everything: true,
 			},
 		},
+        rules:{
+            ...eslint,...jsxA11y,...typescript
+        }
     }
 ]
