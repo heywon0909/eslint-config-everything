@@ -1,9 +1,11 @@
+import eslintConfigPrettier from 'eslint-config-prettier/flat';
 export default [
+    eslintConfigPrettier,
     {
-        languageOptions: {
-            globals: {
-                everything: true,
-            },
-        }
+      	languageOptions: {
+			globals: {
+				everything: true,
+			},
+		},
     }
 ]
