@@ -178,8 +178,4 @@ This config covers:
 
 ---
 
-## License
 
-MIT
-
----
